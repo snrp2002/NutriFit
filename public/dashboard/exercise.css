@@ -175,13 +175,13 @@ input:focus{
 
 .delete-button button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(8, 135, 34);
+    background-color: #6fd2ae;
     color: white;
     padding: 8px 25px;
     border: 0px;
     font-size: 1rem;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .delete-button button:active{
     transform: scale(0.95);
