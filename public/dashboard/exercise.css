@@ -174,21 +174,20 @@ input:focus{
 }
 
 .delete-button button{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #6fd2ae;
-    color: white;
-    padding: 8px 25px;
-    border: 0px;
-    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.199);
     cursor: pointer;
-    margin-bottom: 30px;
+    color: #086076;
+    font-weight: 500;
+    padding: 7px 50px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    margin-bottom: 40px;
 }
 .delete-button button:active{
     transform: scale(0.95);
-}
-.delete-button button:hover{
-    background: rgb(2, 88, 19);
-
 }
 
 @media only screen and (max-width: 800px) {
